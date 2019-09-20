@@ -204,7 +204,7 @@ public class StylePreferences extends SettingsPreferenceFragment {
     private void setupStylePref() {
         int preference = LineageSettings.System.getInt(getContext().getContentResolver(),
                 LineageSettings.System.BERRY_GLOBAL_STYLE,
-                StyleInterface.STYLE_GLOBAL_DARK);
+                StyleInterface.STYLE_GLOBAL_AUTO_WALLPAPER);
         String handlerPackage = LineageSettings.System.getString(getContext().getContentResolver(),
                 LineageSettings.System.BERRY_MANAGED_BY_APP);
 
@@ -216,7 +216,7 @@ public class StylePreferences extends SettingsPreferenceFragment {
                 mStyleStatus = StyleStatus.DARK_ONLY;
                 break;
             default:
-                mStyleStatus = StyleStatus.DARK_ONLY;
+                mStyleStatus = StyleStatus.DYNAMIC;
                 break;
         }
 
@@ -301,7 +301,7 @@ public class StylePreferences extends SettingsPreferenceFragment {
                 icon = R.drawable.ic_style_dark;
                 break;
             default:
-                icon = R.drawable.ic_style_dark;
+                icon = R.drawable.ic_style_auto;
                 break;
         }
 
