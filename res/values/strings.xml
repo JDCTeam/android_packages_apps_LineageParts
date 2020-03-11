@@ -577,20 +577,10 @@
     <string name="auto_power_save_summary_off">Do not enable power save mode automatically</string>
     <string name="auto_power_save_never">Never</string>
 
-    <!-- Applications: Expanded desktop -->
-    <string name="expanded_desktop_settings_title">Expanded desktop</string>
-    <string name="expanded_desktop_settings_summary">Expand your available desktop space by hiding the status bar, navigation bar, or both</string>
-    <string name="expanded_desktop_options_title">Customization options</string>
-    <string name="expanded_desktop_style_title">Expanded desktop style</string>
-    <string name="expanded_desktop_style_hide_nothing">Hide nothing</string>
-    <string name="expanded_desktop_style_hide_status">Hide status bar</string>
-    <string name="expanded_desktop_style_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_desktop_style_hide_both">Hide both</string>
-    <string name="expanded_desktop_nothing_to_show_text">Turn the switch off to customize your expanded desktop on a per-app basis</string>
-
     <!-- Applications: Long screen -->
     <string name="long_screen_settings_title">Full screen apps</string>
     <string name="long_screen_settings_summary">Force legacy apps to use full screen aspect ratio</string>
+    <string name="long_screen_settings_no_apps">No apps</string>
 
     <!-- Sounds: Charging sounds -->
     <string name="charging_sounds_settings_title">Charging sounds</string>
@@ -613,6 +603,7 @@
     <string name="touchscreen_gesture_one_finger_down_swipe_title">Swipe down with one finger</string>
     <string name="touchscreen_gesture_one_finger_left_swipe_title">Swipe left with one finger</string>
     <string name="touchscreen_gesture_one_finger_right_swipe_title">Swipe right with one finger</string>
+    <string name="touchscreen_gesture_single_tap_title">Single tap</string>
     <string name="touchscreen_gesture_up_arrow_title">Draw a \"Λ\"</string>
     <string name="touchscreen_gesture_down_arrow_title">Draw a \"V\"</string>
     <string name="touchscreen_gesture_left_arrow_title">Draw a \"&lt;\"</string>
@@ -646,6 +637,7 @@
     <string name="touchscreen_gesture_action_next_track">Skip to the next music track</string>
     <string name="touchscreen_gesture_action_volume_down">Lower media volume</string>
     <string name="touchscreen_gesture_action_volume_up">Raise media volume</string>
+    <string name="touchscreen_gesture_action_ambient_display">Show ambient display</string>
 
     <!-- Egg: Title for the easter egg activity -->
     <string name="egg_title" translatable="false">LineageOS Easter Egg</string>
